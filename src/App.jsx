@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import styles from './App.module.css';
+import HomeScreen from './components/home';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn Solid
         </a>
+        <HomeScreen />
       </header>
     </div>
   );

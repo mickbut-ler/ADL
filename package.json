@@ -1,20 +1,19 @@
 {
-  "name": "adl",
-  "version": "1.0.0",
+  "name": "vite-template-solid",
+  "version": "0.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mickbut-ler/ADL.git"
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^4.1.1",
+    "vite-plugin-solid": "^2.5.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mickbut-ler/ADL/issues"
-  },
-  "homepage": "https://github.com/mickbut-ler/ADL#readme"
+  "dependencies": {
+    "solid-js": "^1.6.10"
+  }
 }
